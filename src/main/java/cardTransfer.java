@@ -73,6 +73,8 @@ public class cardTransfer {
         Assert.assertEquals("PHILIPP MCCAULEY", driver.findElement(receiverName).getText());
         Assert.assertEquals("10 USD", driver.findElement(receiverAmount).getText());
         Assert.assertEquals("13.16 USD", driver.findElement(totalAmount).getText());
+        System.out.println("\n");
     }
+
 
 }
